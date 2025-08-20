@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --verde-claro: #FF862A;
+ }
+
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat';
+}
+
+header {
+    background-color: #ffffff;
+}
+
+
+section {
+    padding-bottom: 6rem;
+}
+
+
+.nav-link {
+    color: #CB6D36;
+    font-weight: 550;
+}
+
+.inicio-fundo {
+    /* aula 3 */
+    background-image: url('img/4965007.jpg');
+    /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: right;
+    border-radius: 83px;
+    width: 100%;
+    height: 603px;
+    padding: 38px;
+    margin: 2 auto;
+}
+
+/* posicionamento para a imagem à direita */
+.img-inicio {
+    position: absolute;
+    right: 1;
+    top: 13rem;
+    width: 46rem;
+    height: auto;
+}
+
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+
+.botao-inicio {
+    background-color: var(--verde-claro);
+    border-radius: 33px;
+    border: none;
+    width: 14em;
+    height: 3em;
+    align-content: center;
+
+}
+
+.display-4 {
+    text-shadow: -6px 6px var(--verde-claro);
+}
+
+
+#tropicalia {
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: url('img/flor.png') top right no-repeat,
+        url('img/flor-esquerda.png') bottom left no-repeat;
+    background-size: 183px 182px;
+    /* Ajuste o tamanho conforme necessário */
+}
+
+#tropicalia .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    /* Garante que o conteúdo fica acima das imagens do background */
+}
+
+
+h2 {
+    font-family: 'Lemon', serif;
+    font-size: 2.7em;
+    font-style: normal;
+    color: var(--verde-claro);
+}
+
+#galeria {
+    background-color: #FAF3F6;
+
+}
+
+.fundo-galeria {
+    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background-size: 182px 181px;
+}
+
+#contato {
+    background-image: url('img/4965007.jpg');
+    background-size: cover;
+    padding: 3rem 1;
+    /* Espaçamento interno para a seção de contato */
+
+}
+
+.formulario {
+    background-color: #fffff;
+    padding: 3rem;
+    /* Espaçamento interno dentro do formulário */
+    border-radius: 10px;
+    /* Borda arredondada para o formulário */
+    box-shadow: 0 0 10px rgba(0, 1, 2, 0.1);
+    /* Sombra suave para destacar o formulário */
+    font-weight: bold;
+}
+
+.formulario button {
+    background-color: #CB6D3;
+    border: none;
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: #F1EDEF;
+}
+.menu-acessibilidade{
+    position: fixed;
+    top:3rem;
+    right:27px;
+    z-index: 1013;
+}
+.rotacao-botao{
+    transform: rotate(-89deg);
+    transform-origin: right center;
+}
+
+.opcoes-acessibilidade{
+    margin-top:11px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opcoes-acessibilidade button{
+    margin-bottom: 6px;
+}
+.apresenta-lista{
+    display: none;
+}
